@@ -1,0 +1,118 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and text color to the body */
+body {
+    background-color: #17adb8;
+    font-family: Arial, sans-serif;
+    color: rgb(60, 10, 124);
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Style the featured curtains */
+.curtain-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.curtain-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.curtain-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.curtain-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.curtain-item p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Style the video presentation */
+iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+
+/* Style the footer */
+footer {
+    background-color: rgb(197, 194, 25);
+    color: rgb(11, 123, 143);
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer p:last-child {
+    margin-top: 5px;
+}
